@@ -61,3 +61,14 @@ let i = 10;
 console.log(i--); // => 10 (post-decrement)
 console.log(i);   // => 9
 
+let j = 3;
+console.log(-j); // => -3 (unary negation)
+
+let k = 5;
+console.log(+k); // => 5 (unary plus, does not change the value)
+
+let m = "5";
+console.log(+m); // => 5 (unary plus converts string to number)
+
+let n = "Hello";
+console.log(+n); // => NaN (unary plus cannot convert non-numeric string to number)
