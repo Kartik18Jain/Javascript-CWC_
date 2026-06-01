@@ -22,3 +22,19 @@
 // Understanding the difference between stack and heap memory is crucial for efficient
 //  memory management and performance optimization in JavaScript.
 
+
+
+// Example of stack memory (primitive datatypes)
+let a = 10; // a is stored in stack memory with value 10
+let b = a; // b is stored in stack memory with value 10 (copy of a)
+b = 20; // b is updated to 20, but a remains 10
+console.log(a); // => 10
+console.log(b); // => 20
+
+// Example of heap memory (reference datatypes)
+let obj1 = { name: "Alice" }; // obj1 is stored in stack memory with reference to heap memory where the object is stored
+let obj2 = obj1; // obj2 is stored in stack memory with reference to the same heap memory as obj1
+obj2.name = "Bob"; // Modifying obj2 also modifies obj1 since they reference the same object in heap memory
+console.log(obj1.name); // => Bob
+console.log(obj2.name); // => Bob
+
