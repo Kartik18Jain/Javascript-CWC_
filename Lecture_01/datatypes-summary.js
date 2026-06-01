@@ -1,6 +1,6 @@
 // Datatypes are divided into two parts 1. Primitive datatype 2. Reference(Non-primitive datatype)
-// Primitive datatypes are 1. Number 2. String 3. Boolean 4. Null 5. Undefined 6. Symbol 7. BigInt
-// Reference datatypes are 1. Object 2. Array 3. Function
+// Primitive datatypes are (call by value) 1. Number 2. String 3. Boolean 4. Null 5. Undefined 6. Symbol 7. BigInt
+// Reference datatypes are (call by reference) 1. Object 2. Array 3. Function
 
 // Primitive datatypes are immutable, which means their values cannot be changed once they are created. 
 // Reference datatypes are mutable, which means their values can be changed after they are created.
