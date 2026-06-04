@@ -44,3 +44,45 @@ console.log(fullUrl); // Output: https://www.example.com/path/to/resource
 
 const website = "https://kartikjain%20.com";
 console.log(website.replace("%20", "")); // Output: https://kartikjain.com
+
+// String concatenation with numbers and template literals
+const age = 25;
+const message = `I am ${age} years old.`;
+console.log(message); // Output: I am 25 years old.
+
+const price = 19.99;
+const productMessage = `The price of the product is $${price}.`;
+console.log(productMessage); // Output: The price of the product is $19.99.
+
+const quantity = 3;
+const totalMessage = `Total cost: $${price * quantity}.`;
+console.log(totalMessage); // Output: Total cost: $59.97.
+
+const name1 = "Alice";
+const name2 = "Bob";
+const greetingMessage = `Hello, ${name1} and ${name2}!`;
+console.log(greetingMessage); // Output: Hello, Alice and Bob!
+
+const firstName = "John";
+const lastName = "Doe";
+const fullName = `${firstName} ${lastName}`;
+console.log(fullName); // Output: John Doe
+
+const city = "New York";
+const country = "USA";
+const locationMessage = `I live in ${city}, ${country}.`;
+console.log(locationMessage); // Output: I live in New York, USA.
+
+const item = "book";
+const pricePerItem = 9.99;
+const quantityPurchased = 2;
+const totalCostMessage = `The total cost for ${quantityPurchased} ${item}s is $${pricePerItem * quantityPurchased}.`;
+console.log(totalCostMessage); // Output: The total cost for 2 books is $19.98.
+
+const userName = "Charlie";
+const welcomeMessage = `Welcome, ${userName}!`;
+console.log(welcomeMessage); // Output: Welcome, Charlie!
+
+const language = "JavaScript";
+const learningMessage = `I am learning ${language}.`;
+console.log(learningMessage); // Output: I am learning JavaScript.
