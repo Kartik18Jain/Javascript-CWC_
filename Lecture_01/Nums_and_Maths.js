@@ -27,6 +27,9 @@ console.log(inf); // output : Infinity
 //Negative Infinity
 let negInf = -Infinity;
 console.log(negInf); // output : -Infinity
+
+const balance = new Number(100);
+console.log(balance.toFixed()); // output :- 100.00
  
 /************************Maths********************* */
 
